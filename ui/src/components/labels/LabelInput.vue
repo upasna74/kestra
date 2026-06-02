@@ -21,7 +21,7 @@
         </div>
         <div class="flex-shrink-1">
             <KsButtonGroup class="d-flex">
-                <KsButton :icon="Plus" @click="addItem" />
+                <KsButton :icon="Plus" @click="addItem" :tooltip="$t('add a label')"/>
                 <KsButton :icon="Minus" @click="removeItem(index)" />
             </KsButtonGroup>
         </div>
